@@ -1,0 +1,8 @@
+/home/justus/Documentos/new_geant4/projects/B1_mod/build/CMakeFiles/install/strip.dir
+/home/justus/Documentos/new_geant4/projects/B1_mod/build/CMakeFiles/install/local.dir
+/home/justus/Documentos/new_geant4/projects/B1_mod/build/CMakeFiles/install.dir
+/home/justus/Documentos/new_geant4/projects/B1_mod/build/CMakeFiles/list_install_components.dir
+/home/justus/Documentos/new_geant4/projects/B1_mod/build/CMakeFiles/rebuild_cache.dir
+/home/justus/Documentos/new_geant4/projects/B1_mod/build/CMakeFiles/edit_cache.dir
+/home/justus/Documentos/new_geant4/projects/B1_mod/build/CMakeFiles/B1.dir
+/home/justus/Documentos/new_geant4/projects/B1_mod/build/CMakeFiles/exampleB1.dir
