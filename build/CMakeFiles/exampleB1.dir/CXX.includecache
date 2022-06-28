@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../include/B1DetectorConstruction.hh
-G4VUserDetectorConstruction.hh
-../include/G4VUserDetectorConstruction.hh
-globals.hh
-../include/globals.hh
-
 ../include/B1PrimaryGeneratorAction.hh
 G4VUserPrimaryGeneratorAction.hh
 ../include/G4VUserPrimaryGeneratorAction.hh
@@ -550,20 +544,6 @@ G4VSolid.hh
 
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4ClassificationOfNewTrack.hh
 
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Cons.hh
-G4UCons.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UCons.hh
-CLHEP/Units/PhysicalConstants.h
--
-G4CSGSolid.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4CSGSolid.hh
-G4Polyhedron.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Polyhedron.hh
-G4Cons.icc
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Cons.icc
-
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Cons.icc
-
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4DCofThisEvent.hh
 globals.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
@@ -998,48 +978,6 @@ G4Navigator.icc
 
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Navigator.icc
 
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4NistElementBuilder.hh
-vector
--
-CLHEP/Units/PhysicalConstants.h
--
-globals.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
-G4Element.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Element.hh
-G4Threading.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Threading.hh
-
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4NistManager.hh
-vector
--
-CLHEP/Units/PhysicalConstants.h
--
-globals.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
-G4Material.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Material.hh
-G4NistElementBuilder.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4NistElementBuilder.hh
-G4NistMaterialBuilder.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4NistMaterialBuilder.hh
-G4Pow.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Pow.hh
-G4Threading.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Threading.hh
-
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4NistMaterialBuilder.hh
-vector
--
-CLHEP/Units/PhysicalConstants.h
--
-globals.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
-G4Material.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Material.hh
-G4Threading.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Threading.hh
-
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Normal3D.hh
 globals.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
@@ -1066,20 +1004,6 @@ G4NormalNavigation.icc
 
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4NormalNavigation.icc
 
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Orb.hh
-G4UOrb.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UOrb.hh
-CLHEP/Units/PhysicalConstants.h
--
-G4CSGSolid.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4CSGSolid.hh
-G4Polyhedron.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Polyhedron.hh
-G4Orb.icc
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Orb.icc
-
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Orb.icc
-
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4OrderedTable.hh
 globals.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
@@ -1097,12 +1021,6 @@ pwdefs.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/pwdefs.hh
 G4AutoLock.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4AutoLock.hh
-
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4PVPlacement.hh
-G4VPhysicalVolume.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4VPhysicalVolume.hh
-G4Transform3D.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Transform3D.hh
 
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4ParameterisedNavigation.hh
 G4Types.hh
@@ -1206,10 +1124,6 @@ map
 G4ParticleDefinition.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4ParticleDefinition.hh
 
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4PhysicalConstants.hh
-CLHEP/Units/PhysicalConstants.h
--
-
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4PhysicsModelCatalog.hh
 globals.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
@@ -1281,16 +1195,6 @@ HepPolyhedron.h
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/HepPolyhedron.h
 G4Visible.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Visible.hh
-
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Pow.hh
-globals.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
-G4Log.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Log.hh
-G4Exp.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Exp.hh
-G4DataVector.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4DataVector.hh
 
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4PrimaryParticle.hh
 globals.hh
@@ -1826,14 +1730,6 @@ volumes/UnplacedBox.h
 G4Polyhedron.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Polyhedron.hh
 
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UCons.hh
-G4UAdapter.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UAdapter.hh
-volumes/UnplacedCone.h
--
-G4Polyhedron.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Polyhedron.hh
-
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UIcommand.hh
 G4UIparameter.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UIparameter.hh
@@ -1869,14 +1765,6 @@ G4UItokenNum.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UItokenNum.hh
 globals.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
-
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UOrb.hh
-G4UAdapter.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UAdapter.hh
-volumes/UnplacedOrb.h
--
-G4Polyhedron.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4Polyhedron.hh
 
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4UserStackingAction.hh
 G4ClassificationOfNewTrack.hh
@@ -2033,12 +1921,6 @@ map
 -
 G4ThreeVector.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4ThreeVector.hh
-
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4VUserDetectorConstruction.hh
-vector
--
-globals.hh
-/home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/globals.hh
 
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/G4VUserEventInformation.hh
 
@@ -2217,32 +2099,6 @@ G4Types.hh
 /home/justus/Documentos/new_geant4/10.04.p03-install/include/Geant4/windefs.hh
 windows.h
 -
-
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/B1DetectorConstruction.cc
-B1DetectorConstruction.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/B1DetectorConstruction.hh
-G4RunManager.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4RunManager.hh
-G4NistManager.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4NistManager.hh
-G4Box.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4Box.hh
-G4LogicalVolume.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4LogicalVolume.hh
-G4PVPlacement.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4PVPlacement.hh
-G4Cons.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4Cons.hh
-G4Orb.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4Orb.hh
-G4SystemOfUnits.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4SystemOfUnits.hh
-G4PhysicalConstants.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4PhysicalConstants.hh
-G4Material.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4Material.hh
-G4NistManager.hh
-/home/justus/Documentos/new_geant4/projects/B1_mod/src/G4NistManager.hh
 
 /home/justus/Documentos/new_geant4/projects/B1_mod/src/B1PrimaryGeneratorAction.cc
 B1PrimaryGeneratorAction.hh

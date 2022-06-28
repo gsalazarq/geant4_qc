@@ -70,7 +70,5 @@
 /vis/scene/notifyHandlers
 /vis/geometry/set/colour logic-Target 0 0 1 1 0.1
 /vis/scene/notifyHandlers
-/run/beamOn 10
+/run/beamOn 1
 /vis/scene/notifyHandlers scene-0
-/gun/particle mu+
-/run/beamOn 10
