@@ -94,8 +94,8 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 
   // Envelope parameters
   //
-  G4double env_sizeXY = 4*cm, env_sizeZ =  6*cm;
-  G4Material* env_mat = nist->FindOrBuildMaterial("G4_AIR");
+  G4double env_sizeXY = 6*cm, env_sizeZ =  6*cm;
+  //G4Material* env_mat = nist->FindOrBuildMaterial("G4_AIR");
 
 
   //
@@ -106,7 +106,7 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
   //G4Material* world_mat = nist->FindOrBuildMaterial("G4_AIR");
 
   G4Box* solidWorld =
-    new G4Box("World",                       //its name
+    new G4Box("World",                                     //its name
        1*world_sizeXY, 1*world_sizeXY, 1*world_sizeZ);     //its size
 
   G4LogicalVolume* logicWorld =
@@ -124,6 +124,29 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
                       0,                     //copy number
                       checkOverlaps);        //overlaps checking
 
+//
+// Envelope
+//
+  G4Box* solidEnv =
+    new G4Box("Envelope",                    //its name
+              0.9*env_sizeXY, 0.9*env_sizeXY, 0.9*env_sizeZ); //its size
+
+  G4LogicalVolume* logicEnv =
+    new G4LogicalVolume(solidEnv,            //its solid
+                        materialWorld,             //its material
+                        "Envelope");         //its name
+
+  new G4PVPlacement(0,                       //no rotation
+                    G4ThreeVector(),         //at (0,0,0)
+                    logicEnv,                //its logical volume
+                    "Envelope",              //its name
+                    logicWorld,              //its mother  volume
+                    false,                   //no boolean operation
+                    0,                       //copy number
+                    checkOverlaps);          //overlaps checking
+
+  //
+  // Shape 1 : shielding 
 
   // Shape 2: semiconductor waffer
   //
@@ -133,9 +156,9 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
   G4double targetYZSize = 1.0*targetXSize;
   G4Box* targetSolid
          = new G4Box("solid-Target",    // name
-                   0.5*targetXSize,   // half x-size
-                   0.2*targetYZSize,  // half y-size
-                   0.5*targetYZSize); // half z-size
+                   0.25*targetXSize,   // half x-size
+                   0.1*targetYZSize,  // half y-size
+                   0.25*targetYZSize); // half z-size
   G4LogicalVolume* targetLogical
          = new G4LogicalVolume(targetSolid,     // solid
                                mat_chip1,  // material

@@ -56,7 +56,7 @@ B1PrimaryGeneratorAction::B1PrimaryGeneratorAction()
   G4ParticleDefinition* particle
     = particleTable->FindParticle(particleName="mu-");
   fParticleGun->SetParticleDefinition(particle);
-  fParticleGun->SetParticlePosition(G4ThreeVector(0.,2.,0.));
+  //fParticleGun->SetParticlePosition(G4ThreeVector(0.,0.,2.0*cm));
   fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,-1.,0.));
   fParticleGun->SetParticleEnergy(1.*MeV);
 }
@@ -104,12 +104,10 @@ void B1PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
      "MyCode0002",JustWarning,msg);
   }
 
-  G4double size = 0.8;
-  G4double x0 = size * envSizeXY * (G4UniformRand()-0.5);
-  G4double y0 = size * envSizeXY * (G4UniformRand()-0.5);
-  G4double z0 = -0.5 * envSizeZ;
 
-  fParticleGun->SetParticlePosition(G4ThreeVector(x0,y0,z0));
+  // Definiendo la posicion del disparo
+  fParticleGun
+    ->SetParticlePosition(G4ThreeVector(0, 1.5*cm, 0));
 
   fParticleGun->GeneratePrimaryVertex(anEvent);
 }
